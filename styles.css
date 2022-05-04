@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+    width: 500px;
+    height: 500px;
+    background-color: rgb(58, 122, 178);
+}
+
+.grid-item {
+    user-select: none;
+}
